@@ -73,9 +73,6 @@
 			children = (
 				84E123DC2A00E6610038FE1D /* ViewModel */,
 				84E123D72A00E41E0038FE1D /* Views */,
-				84E1239829FA59B70038FE1D /* Firebase */,
-				84E1238A29FA4F250038FE1D /* PieChart */,
-				84E1238929FA4E670038FE1D /* Helpers */,
 				84E1238829FA4E5B0038FE1D /* Extensions */,
 				84E1237829FA4DFB0038FE1D /* BudgetAppApp.swift */,
 				84E1237A29FA4DFB0038FE1D /* ContentView.swift */,
@@ -100,27 +97,6 @@
 				84E124392A02533C0038FE1D /* String+Extension.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		84E1238929FA4E670038FE1D /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		84E1238A29FA4F250038FE1D /* PieChart */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = PieChart;
-			sourceTree = "<group>";
-		};
-		84E1239829FA59B70038FE1D /* Firebase */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Firebase;
 			sourceTree = "<group>";
 		};
 		84E123D72A00E41E0038FE1D /* Views */ = {
