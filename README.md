@@ -1,4 +1,4 @@
-# BudgetApp 
+# BudgetAppIOS 
 The main aim of the app is forecasting the user’s expenditure. Based upon the given expenses the user could see in the pictorial representation by viewing the user could have a room to see where he is spending and get rid of unwanted expenses. 
 
 
