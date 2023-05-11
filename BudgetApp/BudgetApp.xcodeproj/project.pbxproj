@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0551FD862A0D536C000D97EC /* AddRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0551FD812A0D536C000D97EC /* AddRecordView.swift */; };
+		0551FD872A0D536C000D97EC /* RecordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0551FD822A0D536C000D97EC /* RecordDetailView.swift */; };
+		0551FD882A0D536C000D97EC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0551FD832A0D536C000D97EC /* CardView.swift */; };
+		0551FD892A0D536C000D97EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0551FD842A0D536C000D97EC /* ContentView.swift */; };
+		0551FD8A2A0D536C000D97EC /* UserAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0551FD852A0D536C000D97EC /* UserAccountView.swift */; };
+		0551FD8C2A0D539E000D97EC /* RecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0551FD8B2A0D539E000D97EC /* RecordViewModel.swift */; };
+		0551FD912A0D545A000D97EC /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0551FD902A0D545A000D97EC /* Record.swift */; };
+		0551FD932A0D54B0000D97EC /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0551FD922A0D54B0000D97EC /* Helpers.swift */; };
 		84E1237929FA4DFB0038FE1D /* BudgetAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1237829FA4DFB0038FE1D /* BudgetAppApp.swift */; };
-		84E1237B29FA4DFB0038FE1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1237A29FA4DFB0038FE1D /* ContentView.swift */; };
 		84E1237D29FA4DFC0038FE1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E1237C29FA4DFC0038FE1D /* Assets.xcassets */; };
 		84E1238029FA4DFC0038FE1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E1237F29FA4DFC0038FE1D /* Preview Assets.xcassets */; };
 		84E1238C29FA534D0038FE1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84E1238B29FA534D0038FE1D /* GoogleService-Info.plist */; };
 		84E1239D29FA5C4C0038FE1D /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = 84E1239C29FA5C4C0038FE1D /* AlertToast */; };
 		84E1239F29FA6B410038FE1D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1239E29FA6B410038FE1D /* HomeView.swift */; };
 		84E123DE2A00E68C0038FE1D /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E123DD2A00E68C0038FE1D /* AuthViewModel.swift */; };
-		84E123E02A00E80D0038FE1D /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E123DF2A00E80D0038FE1D /* SignupView.swift */; };
 		84E123E52A0122010038FE1D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 84E123E42A0122010038FE1D /* FirebaseAuth */; };
 		84E123E72A0122010038FE1D /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 84E123E62A0122010038FE1D /* FirebaseDatabaseSwift */; };
 		84E123E92A0122010038FE1D /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 84E123E82A0122010038FE1D /* FirebaseFirestoreSwift */; };
@@ -24,15 +30,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0551FD812A0D536C000D97EC /* AddRecordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddRecordView.swift; path = BudgetApp/Views/AddRecordView.swift; sourceTree = SOURCE_ROOT; };
+		0551FD822A0D536C000D97EC /* RecordDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecordDetailView.swift; path = BudgetApp/Views/RecordDetailView.swift; sourceTree = SOURCE_ROOT; };
+		0551FD832A0D536C000D97EC /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = BudgetApp/Views/CardView.swift; sourceTree = SOURCE_ROOT; };
+		0551FD842A0D536C000D97EC /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = BudgetApp/Views/ContentView.swift; sourceTree = SOURCE_ROOT; };
+		0551FD852A0D536C000D97EC /* UserAccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserAccountView.swift; path = BudgetApp/Views/UserAccountView.swift; sourceTree = SOURCE_ROOT; };
+		0551FD8B2A0D539E000D97EC /* RecordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewModel.swift; sourceTree = "<group>"; };
+		0551FD902A0D545A000D97EC /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		0551FD922A0D54B0000D97EC /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Helpers/Helpers.swift; sourceTree = "<group>"; };
 		84E1237529FA4DFB0038FE1D /* BudgetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E1237829FA4DFB0038FE1D /* BudgetAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetAppApp.swift; sourceTree = "<group>"; };
-		84E1237A29FA4DFB0038FE1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84E1237C29FA4DFC0038FE1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E1237F29FA4DFC0038FE1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		84E1238B29FA534D0038FE1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		84E1239E29FA6B410038FE1D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		84E123DD2A00E68C0038FE1D /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
-		84E123DF2A00E80D0038FE1D /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		84E124392A02533C0038FE1D /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,11 +83,12 @@
 		84E1237729FA4DFB0038FE1D /* BudgetApp */ = {
 			isa = PBXGroup;
 			children = (
+				0551FD902A0D545A000D97EC /* Record.swift */,
+				0551FD922A0D54B0000D97EC /* Helpers.swift */,
 				84E123DC2A00E6610038FE1D /* ViewModel */,
 				84E123D72A00E41E0038FE1D /* Views */,
 				84E1238829FA4E5B0038FE1D /* Extensions */,
 				84E1237829FA4DFB0038FE1D /* BudgetAppApp.swift */,
-				84E1237A29FA4DFB0038FE1D /* ContentView.swift */,
 				84E1238B29FA534D0038FE1D /* GoogleService-Info.plist */,
 				84E1237C29FA4DFC0038FE1D /* Assets.xcassets */,
 				84E1237E29FA4DFC0038FE1D /* Preview Content */,
@@ -102,7 +115,11 @@
 		84E123D72A00E41E0038FE1D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				84E123DF2A00E80D0038FE1D /* SignupView.swift */,
+				0551FD812A0D536C000D97EC /* AddRecordView.swift */,
+				0551FD832A0D536C000D97EC /* CardView.swift */,
+				0551FD842A0D536C000D97EC /* ContentView.swift */,
+				0551FD822A0D536C000D97EC /* RecordDetailView.swift */,
+				0551FD852A0D536C000D97EC /* UserAccountView.swift */,
 				84E1239E29FA6B410038FE1D /* HomeView.swift */,
 			);
 			path = Views;
@@ -111,6 +128,7 @@
 		84E123DC2A00E6610038FE1D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				0551FD8B2A0D539E000D97EC /* RecordViewModel.swift */,
 				84E123DD2A00E68C0038FE1D /* AuthViewModel.swift */,
 			);
 			path = ViewModel;
@@ -198,11 +216,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E123E02A00E80D0038FE1D /* SignupView.swift in Sources */,
+				0551FD882A0D536C000D97EC /* CardView.swift in Sources */,
+				0551FD862A0D536C000D97EC /* AddRecordView.swift in Sources */,
+				0551FD892A0D536C000D97EC /* ContentView.swift in Sources */,
+				0551FD8C2A0D539E000D97EC /* RecordViewModel.swift in Sources */,
 				84E1243A2A02533C0038FE1D /* String+Extension.swift in Sources */,
+				0551FD872A0D536C000D97EC /* RecordDetailView.swift in Sources */,
+				0551FD912A0D545A000D97EC /* Record.swift in Sources */,
+				0551FD932A0D54B0000D97EC /* Helpers.swift in Sources */,
 				84E123DE2A00E68C0038FE1D /* AuthViewModel.swift in Sources */,
+				0551FD8A2A0D536C000D97EC /* UserAccountView.swift in Sources */,
 				84E1239F29FA6B410038FE1D /* HomeView.swift in Sources */,
-				84E1237B29FA4DFB0038FE1D /* ContentView.swift in Sources */,
 				84E1237929FA4DFB0038FE1D /* BudgetAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,7 +16,7 @@ struct ContentView: View {
                 if authModel.user != nil {
                     HomeView()
                 } else {
-                    SignUpView()
+                    UserAccountView()
                 }
             }.onAppear {
                 authModel.listenToAuthState()

@@ -27,33 +27,41 @@ final class AuthViewModel: ObservableObject {
     
     func signIn(
         emailAddress: String,
-        password: String
+        password: String,
+        errorHandler: @escaping (_ error: Error) -> Void
     ) {
         Auth.auth().signIn(withEmail: emailAddress, password: password) { result, error in
             if let error = error {
-                print("an error occured: \(error.localizedDescription)")
+                errorHandler(error)
+              
                 return
             }
         }
+        
     }
     
     func signUp(
         emailAddress: String,
-        password: String
+        password: String,
+        errorHandler: @escaping (_ error: Error) -> Void
     ) {
         Auth.auth().createUser(withEmail: emailAddress, password: password) { result, error in
             if let error = error {
-                print("an error occured: \(error.localizedDescription)")
+               errorHandler(error)
                 return
             }
         }
     }
     
     func forgotPassword(
-        email: String
+        email: String,
+        errorHandler: @escaping (_ error: Error) -> Void
     ) {
         Auth.auth().sendPasswordReset(withEmail: email) { error in
-            print("Error: \(error?.localizedDescription ?? "error on \(#line)")")
+            if let err = error {
+                errorHandler(err)
+                return
+            }
         }
     }
     
